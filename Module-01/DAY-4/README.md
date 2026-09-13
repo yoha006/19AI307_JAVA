@@ -24,13 +24,28 @@ b)	Call the 'calculateArea' method on the 'rectangle' object
  ```
 /*
 Program to implement a User Defined Method using Java
-Developed by: 
-RegisterNumber:  
+Developed by: P.YOHA
+RegisterNumber:  212224060314
 */
 ```
 
 ## Sourcecode.java:
+```
+import java.util.Scanner;
+public class Main{
+public static void main (String[] args){
+int num=7;
+find_Oddeven(num);
+}
 
+static void find_Oddeven(int num){
+  if(num%2==0) 
+      System.out.println(num+" is even"); 
+  else 
+      System.out.println(num+" is odd");
+ }
+}
+```
 
 
 
@@ -39,6 +54,7 @@ RegisterNumber:
 
 ## OUTPUT:
 
+<img width="388" height="183" alt="image" src="https://github.com/user-attachments/assets/5f2732b7-fd63-41d8-8ed0-e648d69b9a9e" />
 
 
 ## RESULT:
