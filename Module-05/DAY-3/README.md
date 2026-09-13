@@ -19,13 +19,41 @@ To Create a java program to print the sum of two number using getter and setter 
  ```
 /*
 Program to implement a Getter and Setter using Java
-Developed by: 
-RegisterNumber:  
+Developed by: P.YOHA
+RegisterNumber:  212224060314
 */
 ```
 
 ## Sourcecode.java:
+```
+import java.util.*;
+public class SetAndGet {
+private String a;
+private String b;
 
+public void getadd() {
+    int a1=Integer.parseInt(a);
+    int b1=Integer.parseInt(b);
+	System.out.print("Sum is " + (a1+b1)); 
+	
+}
+public void setadd(String a,String b) {
+ this.a =a;
+ this.b=b;
+}
+
+public static void main(String args[]){
+ Scanner sc=new Scanner(System.in);
+ SetAndGet obj = new SetAndGet();
+ String str=sc.nextLine();
+ String str1=sc.nextLine();
+ 
+ obj.setadd(str,str1);
+ 
+ obj.getadd();
+}
+}
+```
 
 
 
@@ -34,6 +62,8 @@ RegisterNumber:
 
 ## OUTPUT:
 
+
+<img width="390" height="307" alt="image" src="https://github.com/user-attachments/assets/db5b971d-c064-4569-822f-85adfe8c8fee" />
 
 
 ## RESULT:
