@@ -21,32 +21,55 @@ To create  a Java program to perform the inheritance concept for employee detail
 
 
 
-
-
-
-
-
 ## PROGRAM:
  ```
 /*
 Program to implement a Inheritance using Java
-Developed by: 
-RegisterNumber:  
+Developed by: P.YOHA
+RegisterNumber:  212224060314
 */
 ```
 
 ## Sourcecode.java:
+```
+class Subject
+{
+    
+    String subject1,subject2,subject3,subject4;      
+    void dispSub(String subject1,String subject2,String subject3,String subject4)
+    {
+        System.out.println(subject1+" "+subject2+" "+subject3+" "+subject4);
+    }
+}
+class Student
+{
+    int Stu_Id;
+    Subject obj = new Subject();    
+    void disp(int id)
+    {
+        System.out.println(id);
+        obj.dispSub("B.Tech","IT","Third","year");
+    }
+}
 
-
-
-
-
-
+public class Main
+{
+    public static void main(String[] args)
+    {
+        Student obj = new Student();
+        obj.disp(101);
+        
+    }
+}
+```
 
 ## OUTPUT:
+```
+Input      Expected                 Got
+---        101                      101
+           B.Tech IT Third year     B.Tech IT Third year
 
-
-
+```
 ## RESULT:
 Thus the Java program to implement the inheritance concept for employee details was  executed successfully.
 
